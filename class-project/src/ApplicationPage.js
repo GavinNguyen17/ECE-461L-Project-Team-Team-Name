@@ -119,7 +119,7 @@ function AppPage() {
           
          
           
-          <center>
+          {/* <center> */}
           {this.props.HWSetname}
           <br/>
           Global Capacity: {this.props.capacity} <br/>
@@ -132,7 +132,7 @@ function AppPage() {
     </Box>
     <br/>
         
-    </center>
+    {/* </center> */}
     
         </div>
         
@@ -185,14 +185,18 @@ function AppPage() {
         <br/>
         <br/>
         <Grid container spacing={2}>
-        <Grid xs={12}>
+        <Grid xs={6}>
         <Box sx={{ border: '1px dashed grey' } }>
         <HardwareSet capacity = {HWSet1Cap} HWSetname='HWSet1' name={this.props.name}/>
-        <HardwareSet capacity = {HWSet2Cap} HWSetname='HWSet2'name={this.props.name}/>
+        </Box>
+        </Grid>
+         
+        <Grid xs={6}>
+        <Box sx={{ border: '1px dashed grey' } }>
+        <center><HardwareSet capacity = {HWSet2Cap} HWSetname='HWSet2'name={this.props.name}/></center>
+        
 
-        <br/>
-
-        <p></p>
+        
         </Box>
         </Grid>
         
