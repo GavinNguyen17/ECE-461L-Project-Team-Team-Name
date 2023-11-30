@@ -1,9 +1,11 @@
 # ECE-461L-Project-Team-Team-Name
 ## Overview
-In this project, the team implemented a Proof of Concept (PoC) for a web application, which functioned as a Hardware-as-a-Service (HaaS) system. In this Haas Application users are able to create encrypted accounts, log into encrypted accounts, or logout of encrypted accounts. Users can also create, join or leave projects, and check-in or check-out hardware resources for the projects.
+In this project, the team implemented a Proof of Concept (PoC) for a web application, which functioned as a Hardware-as-a-Service (HaaS) system. In this Haas Application users are able to create encrypted accounts, log into encrypted accounts, or log out of encrypted accounts. Users can also create, join, or leave projects, and check in or check out hardware resources for the projects.
+![image](https://github.com/GavinNguyen17/ECE-461L-Project-Team-Team-Name/assets/124718536/9f177a57-20ae-41f8-b4a3-29763408206c)
+![image](https://github.com/GavinNguyen17/ECE-461L-Project-Team-Team-Name/assets/124718536/d1760272-ad8e-4f22-9b5f-8a411860521b)
 
 ## Prerequisites
-Users should have these following programs to run the application on their own local machine
+Users should have the following programs to run the application on their own local machine
 - Python (https://www.python.org/downloads/)
 - Node.js (https://nodejs.org/en/)
 
